@@ -1,0 +1,42 @@
+ Create a full-stack MERN (MongoDB, Express.js, React.js, Node.js and bootstrap) website for a cloud kitchen-based food delivery service. The platform will have two main user roles: Customer and Food Provider (Tiffin Service Provider).
+and name of website is : Tiffin Wallah
+ ### Website Pages Required:
+
+ 1. Homepage – Describe the food delivery platform, value proposition, call to action to sign up or login.
+ 2. About Us Page – Include information about the purpose of the platform, mission, and contact details.
+ 3. Login Page – A single login form for both customers and providers with email and password fields.
+ 4. Registration Page – Two separate user roles: Customer and Provider.
+
+    * Fields for both:
+
+      * Full Name
+      * Email ID
+      * Password
+      * Confirm Password
+      * Phone Number
+      * Address
+ 5. Contact Us Page – Simple form with name, email, message.
+ 6. Add to Cart Page – For customers to select food items from different providers.
+ 7. Customer Dashboard – Display available food items by providers, allow food ordering, view order history, track orders.
+ 8. Provider Dashboard – Allow providers to:
+
+    * Add/edit/delete food items
+    * View received orders
+    * Track delivery status
+
+ ### Functional Requirements:
+
+ * User authentication and role-based access (Customer vs Provider)
+ * Food Providers can manage menus
+ * Customers can browse food items, add to cart, and place orders
+ * Orders stored in database with status tracking
+ * Dashboard should be dynamic and responsive for both roles
+
+ ### Technologies:
+
+ * Frontend: React.js with React Router for navigation, Context API or Redux for state management
+ * Backend: Express.js with Node.js
+ * Database: MongoDB Atlas
+ * Authentication: JWT-based authentication
+
+ Build this project with best practices for folder structure (separate frontend and backend), use React functional components, and make the UI user-friendly with responsive design using TailwindCSS or Bootstrap.
